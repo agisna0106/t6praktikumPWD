@@ -33,7 +33,7 @@ for($i=1; $i<=10; $i++) {
                         <td style='background-color: green;'>$i</td>";
                 for($j=1;$j<=10;$j++) {
                     $hasil = $i * $j;
-                    echo ($hasil%2 == 0)? "<td style='background-color: blue;'>$hasil</td>" : "<td style='background-color: yellow;'>$hasil</td>";
+                    echo ($hasil%2 == 0)? "<td style='background-color: lightblue;'>$hasil</td>" : "<td style='background-color: yellow;'>$hasil</td>";
                 }
                 echo "<tr>";
             }
