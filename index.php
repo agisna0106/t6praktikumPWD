@@ -39,7 +39,7 @@ for($i=1; $i<=10; $i++) {
             }
         ?>
         
-        
+        <p>Tugas Selesai!</p>
     </table>
 </body>
 </html>
