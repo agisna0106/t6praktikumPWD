@@ -3,6 +3,9 @@ echo "Menampilkan angka genap dari 1-10<br>";
 for($i=1; $i<=10; $i++) {
     echo ($i % 2 == 0) ? $i : " ";
 }
+for($i=1; $i<=3; $i++){
+    echo "<br>";
+}
 ?>
 
 <!DOCTYPE html>
@@ -38,8 +41,8 @@ for($i=1; $i<=10; $i++) {
                 echo "<tr>";
             }
         ?>
-        
-        <p>Tugas Selesai!</p>
-    </table>
+       
+    </table> 
+     <p>Tugas Selesai!</p>
 </body>
 </html>
